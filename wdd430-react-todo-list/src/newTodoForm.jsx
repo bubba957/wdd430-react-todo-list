@@ -5,6 +5,7 @@ export function NewTodoForm({ addTodo }) {
 
     function handleSubmit(e) {
     e.preventDefault()
+    
     if (newItem === "") return
 
     addTodo(newItem)

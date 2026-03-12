@@ -1,5 +1,5 @@
 
-export function ToDoItem(completed, id, title, toggleTodo, deleteTodo) {
+export function ToDoItem({ completed, id, title, toggleTodo, deleteTodo }) {
     return (
         <li>
             <label>
